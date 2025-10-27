@@ -1,17 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
-    <div>
+    <div className="landing-page">
       <section className="hero">
         <div className="container">
           <div className="hero-content">
             <h1>Ticket Management System</h1>
-            <p>Efficiently manage your support tickets with our comprehensive platform.</p>
+            <p>
+              Efficiently manage your support tickets with our comprehensive
+              platform.
+            </p>
             <div className="cta-buttons">
-              <Link to="/auth/login" className="btn btn-primary">Login</Link>
-              <Link to="/auth/signup" className="btn btn-secondary">Get Started</Link>
+              <Link to="/auth/login" className="btn btn-primary">
+                Login
+              </Link>
+              <Link to="/auth/signup" className="btn btn-secondary">
+                Get Started
+              </Link>
             </div>
           </div>
         </div>
